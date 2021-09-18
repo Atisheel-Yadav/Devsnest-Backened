@@ -40,4 +40,25 @@
 	<hr>
 	<h1>PostgreSQL<h1>
 		<h5>To start PostgresSQL:</h5>
+		<p>-> sudo service postgresql start <br>
+                 -> psql -U postgres <br><br>
+			This will connect you to the user postgres and the database postgres.<br>
+			-> Check list of databases: \l<br>
+-> Check list of users: \du<br>
+-> Check the current user and database: \conninfo<br>
+-> Select/connect to a desired database: \c {dbname}<br><br>
+			-> Create a user: create user {user-name} with password {pass in ''};
+(wont work for "")<br>
+-> Create a database: create database {db}<br><br>
+			-> Give permissions to the user: grant {delete/select/insert/update/all...} privileges on database {database} to {user};<br>
+-> View granted permissions for the users: \l<br><br>
+			-> Delete a database: drop database {db};<br>
+-> Delete an user: drop use {user-name};<br><br>
+			-> Create a table: create table {tablename}({Column Name} {Data Type} {Constraint});<br>
+-> List tables: \d<br>
+-> View table's data: \d {tablename}<br>
+			-> Drop a table: drop table {tablename}\<br></p>
+
+			
+
 		
