@@ -1,0 +1,11 @@
+{
+  "name": "pakage.json",
+  "version": "1.0.0",
+  "description": "learning node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mkdir"
+  },
+  "author": "Atisheel",
+  "license": "ISC"
+}
